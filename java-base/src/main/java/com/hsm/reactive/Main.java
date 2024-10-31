@@ -51,6 +51,16 @@ public class Main {
             }
 
             System.out.println("主线程：" + Thread.currentThread()); // Thread[main,5,main]
+            try {
+                Thread.sleep(10);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+            for (int i = 0; i < 10; i++) {
+                publisher.submit("原材料" + i);
+            }
+
+
 
             publisher.close(); // 这样才会回调 onComplete 方法
 
