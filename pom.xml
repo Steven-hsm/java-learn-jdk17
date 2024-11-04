@@ -9,6 +9,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>java-base</module>
+        <module>netty-learn</module>
     </modules>
     <version>1.0.0</version>
 
