@@ -1,8 +1,8 @@
-package com.hsm.netty;
+package com.hsm.netty.bytebuffer;
 
 import java.nio.ByteBuffer;
 
-import static com.hsm.netty.ByteBufferUtil.debugAll;
+import static com.hsm.netty.bytebuffer.ByteBufferUtil.debugAll;
 
 public class TestByteBufferReadWrite {
 
