@@ -1,4 +1,4 @@
-package com.hsm.bytebuf;
+package com.hsm.learn.bytebuf;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.ByteBufAllocator;

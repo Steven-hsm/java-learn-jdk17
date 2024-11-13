@@ -1,4 +1,4 @@
-package com.hsm.echo;
+package com.hsm.learn.echo;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;

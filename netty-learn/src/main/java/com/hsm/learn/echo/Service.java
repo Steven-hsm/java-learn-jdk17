@@ -1,4 +1,4 @@
-package com.hsm.echo;
+package com.hsm.learn.echo;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.ByteBuf;

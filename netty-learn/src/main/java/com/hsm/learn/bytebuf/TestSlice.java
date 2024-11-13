@@ -1,9 +1,9 @@
-package com.hsm.bytebuf;
+package com.hsm.learn.bytebuf;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.ByteBufAllocator;
 
-import static com.hsm.bytebuf.TestByteBuf.log;
+import static com.hsm.learn.bytebuf.TestByteBuf.log;
 
 public class TestSlice {
     public static void main(String[] args) {

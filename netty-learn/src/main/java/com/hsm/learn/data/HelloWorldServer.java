@@ -1,4 +1,4 @@
-package com.hsm.data;
+package com.hsm.learn.data;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
