@@ -20,9 +20,9 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ChatRequestMessage extends Message {
-    private String content;
-    private String to;
     private String from;
+    private String to;
+    private String content;
 
     @Override
     public int getMessageType() {

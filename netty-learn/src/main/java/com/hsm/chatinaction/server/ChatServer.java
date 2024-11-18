@@ -70,7 +70,7 @@ public class ChatServer {
                         }
                     });
                     ch.pipeline().addLast(new ProtocolFrameDecoder());
-                    ch.pipeline().addLast(loggingHandler);
+                    //ch.pipeline().addLast(loggingHandler);
                     ch.pipeline().addLast(messageCodec);
                     ch.pipeline().addLast(loginHandler);
                     ch.pipeline().addLast(chatHandler);
